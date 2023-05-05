@@ -9,8 +9,8 @@ import com.example.mapping.Repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityNotFoundException;
-import java.util.ArrayList;
+//import javax.persistence.EntityNotFoundException;
+//import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -21,7 +21,9 @@ public class CourseStudentService {
 
     @Autowired
     private StudentRepository studentRepository;
+/**
 
+ **/
    public  String saveCourse(StudentModel studentModel){
     StudentEntity studentEntity = new StudentEntity();
     studentEntity.setStdName(studentModel.getStdName());
