@@ -32,8 +32,9 @@ public class CourseStudentService {
 
     for(CourseModel courseModel:courseModelList){
         CourseEntity courseEntity = new CourseEntity();
-        courseEntity.setCourseName(courseModel.getCourseName());
-        courseEntity.setCourseDescription(courseEntity.getCourseDescription());
+       // courseEntity.setCourseName(courseModel.getCourseName());
+       // courseEntity.setCourseDescription(courseEntity.getCourseDescription());
+        /* this is for checking purpose only*/
 
 
         studentEntity.addCourse(courseEntity);
