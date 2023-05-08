@@ -12,6 +12,7 @@ public class CourseModel {
 
     private int courseId;
     private String courseName;
+    private  String courseDescription;
 
 
 }

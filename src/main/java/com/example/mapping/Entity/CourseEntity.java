@@ -23,6 +23,9 @@ public class CourseEntity {
     @Column(name="course_name")
     private String courseName;
 
+    @Column(name = "course_description")
+    private String courseDescription;
+
 //    @ManyToMany(mappedBy = "courseEntitySet")
 //    private Set<StudentEntity> studentEntities = new HashSet<>();
 

@@ -33,6 +33,7 @@ public class CourseStudentService {
     for(CourseModel courseModel:courseModelList){
         CourseEntity courseEntity = new CourseEntity();
         courseEntity.setCourseName(courseModel.getCourseName());
+        courseEntity.setCourseDescription(courseEntity.getCourseDescription());
 
 
         studentEntity.addCourse(courseEntity);
