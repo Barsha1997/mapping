@@ -34,6 +34,7 @@ public class CourseStudentService {
         CourseEntity courseEntity = new CourseEntity();
         courseEntity.setCourseName(courseModel.getCourseName());
         courseEntity.setCourseDescription(courseEntity.getCourseDescription());
+        courseEntity.setCourseNo(courseEntity.getCourseNo());
 
 
         studentEntity.addCourse(courseEntity);
